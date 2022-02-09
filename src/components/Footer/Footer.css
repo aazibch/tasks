@@ -1,0 +1,17 @@
+footer {
+    text-align: center;
+    margin-top: 5rem;
+    color: #777;
+}
+
+footer p:first-child {
+    font-size: 0.7rem;
+}
+
+footer p:last-child {
+    font-size: 0.6rem;
+}
+
+footer a {
+    color: #777;
+}

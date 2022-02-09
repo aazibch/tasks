@@ -1,0 +1,29 @@
+.new-task-form {
+    position: relative;
+    padding: 0.4rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #DCDCDC;
+}
+
+.add-icon {
+    height: 0.9rem;
+    width: 0.9rem;
+    position: absolute;
+    display: inline-block;
+    top: 0.6rem;
+    left: 0.5rem;
+    background: url("../../../assets/images/add.png");
+    background-position: center;
+    background-size: 100%;
+}
+
+.new-task-field-container {
+    margin: 0 1.4rem;
+}
+
+.new-task-field {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+}

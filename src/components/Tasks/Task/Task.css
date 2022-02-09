@@ -1,0 +1,77 @@
+.task {
+    position: relative;
+    border: 1px solid #DCDCDC;
+    padding: 0.4rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+}
+
+.task:hover .delete-button {
+    display: inline-flex;
+}
+
+.task-description-container {
+    margin: 0 1.4rem;
+}
+
+.task-description-field {
+    border: none;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.checkbox {
+    height: 0.9rem;
+    width: 0.9rem;
+    border: 1px solid #000;
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: 0.5rem;
+}
+
+.delete-button {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+    cursor: pointer;
+    background: url("../../../assets/images/delete.png");
+    background-position: center;
+    background-size: 100%;
+}
+
+.delete-button:hover {
+    opacity: 1;
+}
+
+.incomplete-task .checkbox {
+    opacity: 0.5;
+}
+
+.incomplete-task .checkbox:hover {
+    opacity: 1;
+}
+
+.completed-task .checkbox {
+    opacity: 0.5;
+    background: url("../../../assets/images/checked.png");
+    background-position: center;
+    background-size: 85%;
+    background-repeat: no-repeat;
+}
+
+.completed-task .checkbox:hover {
+    opacity: 1;
+}
+
+.completed-task .task-description-field {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
